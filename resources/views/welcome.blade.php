@@ -79,7 +79,7 @@
                       <a class="navbar-brand m-auto" href="#">
                       <style>
                             body {
-                                 background-image: url('/img/uno.png');
+                                 background-image: url('/img/dos.png');
                                  background-repeat: no-repeat;
                                  background-attachment: fixed;
                                  background-size: cover;
