@@ -72,21 +72,21 @@
                                 </span>
                             </label>
                         </div>
+                        <div class="row">
+                             <div class="col-8">
+                                 @if (Route::has('password.request'))
+                                 <a href="{{ route('password.request') }}" class="text-orange">
+                                     <small>{{ __('¿Se te olvidó tu contraseña?') }}</small>
+                                 </a>
+                                     @endif
+                             </div>
+                        </div>
                     </div>
                     <div class="card-footer justify-content-center">
                         <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Iniciar Sesión') }}</button>
                     </div>
                 </div>
             </form>
-            <div class="row">
-                <div class="col-8">
-                    @if (Route::has('password.request'))
-                    <a href="{{ route('password.request') }}" class="text-light">
-                        <small>{{ __('¿Se te olvidó tu contraseña?') }}</small>
-                    </a>
-                    @endif
-                </div>
-            </div>
         </div>
     </div>
 </div>
