@@ -1,6 +1,4 @@
 <div class="sidebar" data-color="orange" data-background-color="orange" data-image="{{ asset('material') }}/img/sidebar-1.jpg">
-  <!--
-  -->
   <div class="logo">
     <a href="/home" class="simple-text logo-normal">
       {{ __('SuperKids') }}
@@ -11,7 +9,7 @@
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('home') }}">
           <i class="material-icons">home</i>
-            <p>{{ __('Dashboard') }}</p>
+            <p>{{ __('Home') }}</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'users' ? ' active' : '' }}">
