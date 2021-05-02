@@ -23,7 +23,7 @@
                     <p class="card-text">
                       <div class="author">
                         <a href="#">
-                          <img src="{{ asset('/img/default-avatar.png') }}" alt="image" class="avatar">
+                          <img src="{{ asset('/img/gatito.jpg') }}" alt="image" class="avatar">
                           <h5 class="title mt-3">{{ $user->name }}</h5>
                         </a>
                         <p class="description">
@@ -50,7 +50,7 @@
                     <p class="card-text">
                       <div class="author">
                         <a href="#" class="d-flex">
-                          <img src="{{ asset('/img/default-avatar.png') }}" alt="image" class="avatar">
+                          <img src="{{ asset('/img/gatito2.jpg') }}" alt="image" class="avatar">
                           <h5 class="title mx-3">{{ $user->name }}</h5>
                         </a>
                         <p class="description">

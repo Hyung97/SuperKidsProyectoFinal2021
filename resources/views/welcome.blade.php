@@ -42,7 +42,7 @@
                 font-size: 84px;
             }
             .links > a {
-                color: #fff;
+                color: #000;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -79,7 +79,7 @@
                       <a class="navbar-brand m-auto" href="#">
                       <style>
                             body {
-                                 background-image: url('/img/coronavirus.png');
+                                 background-image: url('/img/uno.png');
                                  background-repeat: no-repeat;
                                  background-attachment: fixed;
                                  background-size: cover;
