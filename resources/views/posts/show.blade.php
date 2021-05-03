@@ -31,7 +31,6 @@
                         <p class="description">
                           {{ _('Ceo/Co-Founder') }} <br>
                           {{ $post->title }} <br>
-                          {{ $post->created_at }}
                         </p>
                       </div>
                     </p>

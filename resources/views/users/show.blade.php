@@ -79,11 +79,6 @@
                     <table class="table table-bordered table-striped">
                       <tbody>
                         <tr>
-                          <th>ID</th>
-                          <td>{{ $user->id }}
-                          </td>
-                        </tr>
-                        <tr>
                           <th>Name</th>
                           <td>{{ $user->name }}</td>
                         </tr>
@@ -94,10 +89,6 @@
                         <tr>
                           <th>Username</th>
                           <td>{!! $user->username !!}</td>
-                        </tr>
-                        <tr>
-                          <th>Created at</th>
-                          <td><a href="#" target="_blank">{{  $user->created_at  }}</a></td>
                         </tr>
                       </tbody>
                     </table>

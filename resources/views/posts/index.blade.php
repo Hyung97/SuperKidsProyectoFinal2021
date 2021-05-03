@@ -19,17 +19,15 @@
             <div class="table-responsive">
               <table class="table ">
                 <thead class="text-primary">
-                  <th> ID </th>
-                  <th> Nombre </th>
-                  <th> Fecha de creación </th>
+                  <th> Post </th>
+                
                   <th class="text-right"> Acciones </th>
                 </thead>
                 <tbody>
                   @forelse ($posts as $post)
                   <tr>
-                    <td>{{ $post->id }}</td>
+              
                     <td>{{ $post->title }}</td>
-                    <td class="text-primary">{{ $post->created_at->toFormattedDateString() }}</td>
                     <td class="td-actions text-right">
                       <a href="{{ route('posts.show', $post->id) }}" class="btn btn-info"> <i
                           class="material-icons">person</i> </a>
