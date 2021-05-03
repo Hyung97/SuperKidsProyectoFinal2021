@@ -34,7 +34,7 @@
                       <a href="{{ route('posts.edit', $post->id) }}" class="btn btn-success"> <i
                           class="material-icons">edit</i> </a>
                       <form action="{{ route('posts.destroy', $post->id) }}" method="post"
-                        onsubmit="return confirm('areYouSure')" style="display: inline-block;">
+                        onsubmit="return confirm('ESTA SEGURO DE ELIMINA ESTE POST?')" style="display: inline-block;">
                         @csrf
                         @method('DELETE')
                         <button type="submit" rel="tooltip" class="btn btn-danger">
