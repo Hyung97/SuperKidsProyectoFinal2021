@@ -1,4 +1,4 @@
-@extends('layouts.main', ['activePage' => 'users', 'titlePage' => 'Detalles del usuario'])
+@extends('layouts.main', ['activePage' => 'users', 'titlePage' => 'Detalles de mi perfil'])
 @section('content')
 <div class="content">
   <div class="container-fluid">
@@ -6,13 +6,13 @@
       <div class="col-md-12">
         <div class="card">
           <div class="card-header card-header-info">
-            <div class="card-title">Usuarios</div>
+            <div class="card-title">Usuario</div>
             <p class="card-category">Vista detallada del usuario {{ $user->name }}</p>
           </div>
           <!--body-->
           <div class="card-body">
             @if (session('success'))
-            <div class="alert alert-success" role="success">
+            <div class="alert alert-warning" role="success">
               {{ session('success') }}
             </div>
             @endif

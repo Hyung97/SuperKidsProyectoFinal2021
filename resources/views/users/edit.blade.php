@@ -8,7 +8,7 @@
           @csrf
           @method('PUT')
           <div class="card">
-            <div class="card-header card-header-primary">
+            <div class="card-header card-header-info">
               <h4 class="card-title">Usuario</h4>
               <p class="card-category">Editar datos</p>
             </div>
@@ -23,7 +23,7 @@
                 </div>
               </div>
               <div class="row">
-                <label for="username" class="col-sm-2 col-form-label">Nombre de usuario</label>
+                <label for="username" class="col-sm-2 col-form-label">Usuario</label>
                 <div class="col-sm-7">
                   <input type="text" class="form-control" name="username" value="{{ old('username', $user->username) }}">
                   @if ($errors->has('username'))
@@ -52,7 +52,7 @@
             </div>
             <!--Footer-->
             <div class="card-footer ml-auto mr-auto">
-              <button type="submit" class="btn btn-primary">Actualizar</button>
+              <button type="submit" class="btn btn-info">Actualizar</button>
             </div>
             <!--End footer-->
           </div>

@@ -1,4 +1,4 @@
-@extends('layouts.main', ['activePage' => 'users', 'titlePage' => 'Perfil'])
+@extends('layouts.main', ['activePage' => 'users', 'titlePage' => 'Mi Perfil'])
 @section('content')
     <div class="content">
       <div class="container-fluid">
@@ -8,7 +8,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header card-header-info">
-                    <h4 class="card-title">Perfiles</h4>
+                    <h4 class="card-title">Perfil</h4>
                     <p class="card-category">Perfil registrado</p>
                   </div>
                   <div class="card-body">
@@ -19,7 +19,7 @@
                     @endif
                     <div class="row">
                       <div class="col-12 text-right">
-                        <a href="{{ route('users.create') }}" class="btn btn-sm btn-facebook">Añadir nuevo perfil</a>
+                       <!-- <a href="{{ route('users.create') }}" class="btn btn-sm btn-facebook">Añadir nuevo perfil</a> !-->
                       </div>
                     </div>
                     <div class="table-responsive">
@@ -39,11 +39,11 @@
                               <td class="td-actions text-right">
                                 <a href="{{ route('users.show', $user->id) }}" class="btn btn-info"><i class="material-icons">person</i></a>
                                 <a href="{{ route('users.edit', $user->id) }}" class="btn btn-warning"><i class="material-icons">edit</i></a>
-                                <form action="{{ route('users.delete', $user->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('ESTA SEGURO DE ELIMINAR EL USUARIO?')">
+                                <!-- <form action="{{ route('users.delete', $user->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('ESTA SEGURO DE ELIMINAR EL USUARIO?')"> !-->
                                 @csrf
                                 @method('DELETE')
-                                <button class="btn btn-danger" type="submit" rel="tooltip">
-                                  <i class="material-icons">close</i>
+                               <!--  <button class="btn btn-danger" type="submit" rel="tooltip"> !-->
+                                  <!-- <i class="material-icons">close</i> !-->
                                 </button>
                               </form>
                               </td>
