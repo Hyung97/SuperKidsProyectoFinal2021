@@ -6,16 +6,16 @@
   </div>
   <div class="sidebar-wrapper">
     <ul class="nav">
+    <li class="nav-item{{ $activePage == 'users' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('users.index') }}">
+          <i class="material-icons">person_add</i>
+            <p>Perfil</p>
+        </a>
+      </li>
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('home') }}">
           <i class="material-icons">home</i>
             <p>{{ __('Home') }}</p>
-        </a>
-      </li>
-      <li class="nav-item{{ $activePage == 'users' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('users.index') }}">
-          <i class="material-icons">person_add</i>
-            <p>Usuarios</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'icons' ? ' active' : '' }}">

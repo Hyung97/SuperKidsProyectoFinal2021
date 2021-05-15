@@ -8,7 +8,7 @@
                 @csrf
 
                 <div class="card card-login card-hidden mb-3">
-                    <div class="card-header card-header-primary text-center">
+                    <div class="card-header card-header-warning text-center">
                         <h4 class="card-title"><strong>{{ __('Bienvenidos') }}</strong></h4>
                     </div>
                     <div class="card-body">
@@ -75,7 +75,7 @@
                         <div class="row">
                              <div class="col-8">
                                  @if (Route::has('password.request'))
-                                 <a href="{{ route('password.request') }}" class="text-orange">
+                                 <a href="{{ route('password.request') }}" class="text-warning">
                                      <small>{{ __('¿Se te olvidó tu contraseña?') }}</small>
                                  </a>
                                      @endif
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="card-footer justify-content-center">
-                        <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Iniciar Sesión') }}</button>
+                        <button type="submit" class="btn btn-warning btn-link btn-lg">{{ __('Iniciar Sesión') }}</button>
                     </div>
                 </div>
             </form>

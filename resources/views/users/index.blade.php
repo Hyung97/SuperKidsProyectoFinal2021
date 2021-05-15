@@ -1,4 +1,4 @@
-@extends('layouts.main', ['activePage' => 'users', 'titlePage' => 'Usuarios'])
+@extends('layouts.main', ['activePage' => 'users', 'titlePage' => 'Perfil'])
 @section('content')
     <div class="content">
       <div class="container-fluid">
@@ -7,9 +7,9 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="card">
-                  <div class="card-header card-header-primary">
-                    <h4 class="card-title">Usuarios</h4>
-                    <p class="card-category">Usuarios registrados</p>
+                  <div class="card-header card-header-info">
+                    <h4 class="card-title">Perfiles</h4>
+                    <p class="card-category">Perfil registrado</p>
                   </div>
                   <div class="card-body">
                     @if (session('success'))
@@ -19,7 +19,7 @@
                     @endif
                     <div class="row">
                       <div class="col-12 text-right">
-                        <a href="{{ route('users.create') }}" class="btn btn-sm btn-facebook">Añadir usuario</a>
+                        <a href="{{ route('users.create') }}" class="btn btn-sm btn-facebook">Añadir nuevo perfil</a>
                       </div>
                     </div>
                     <div class="table-responsive">
