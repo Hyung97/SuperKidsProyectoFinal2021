@@ -1,4 +1,4 @@
-@extends('layouts.main', ['activePage' => 'posts', 'titlePage' => 'Nuevo Post'])
+@extends('layouts.main', ['activePage' => 'posts', 'titlePage' => 'FORO '])
 
 @section('content')
 <div class="content">
@@ -9,15 +9,15 @@
           @csrf
           <div class="card ">
             <!--Header-->
-            <div class="card-header card-header-primary">
-              <h4 class="card-title">Post</h4>
-              <p class="card-category">Ingresar datos del nuevo post</p>
+            <div class="card-header card-header-info">
+              <h4 class="card-title">Mi Post</h4>
+              <p class="card-category">Postear</p>
             </div>
             <!--End header-->
             <!--Body-->
             <div class="card-body">
               <div class="row">
-                <label for="title" class="col-sm-2 col-form-label">Post</label>
+                <label for="title" class="col-sm-2 col-form-label"></label>
                 <div class="col-sm-7">
                   <input type="text" class="form-control" name="title" placeholder="Ingrese el post title"
                     autocomplete="off" autofocus>
@@ -29,7 +29,7 @@
 
             <!--Footer-->
             <div class="card-footer ml-auto mr-auto">
-              <button type="submit" class="btn btn-primary">Guardar</button>
+              <button type="submit" class="btn btn-info">Guardar</button>
             </div>
             <!--End footer-->
           </div>

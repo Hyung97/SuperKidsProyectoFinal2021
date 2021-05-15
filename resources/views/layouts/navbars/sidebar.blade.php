@@ -19,13 +19,13 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'icons' ? ' active' : '' }}">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('videos.video') }}">
           <i class="material-icons">videocam</i>
           <p>{{ __('Videos') }}</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'map' ? ' active' : '' }}">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('juegos.index') }}">
           <i class="material-icons">sports_esports</i>
             <p>{{ __('Juegos') }}</p>
         </a>
@@ -49,7 +49,7 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('ayuda.ayuda') }}">
           <i class="material-icons">info</i>
           <p>{{ __('Ayuda') }}</p>
         </a>

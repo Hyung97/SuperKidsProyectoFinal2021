@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AyudaController;
+use App\Http\Controllers\JuegoController;
+use App\Http\Controllers\VideoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +31,7 @@ Route::put('/users/{user}', [App\Http\Controllers\UserController::class, 'update
 Route::delete('/users/{user}', [App\Http\Controllers\UserController::class, 'destroy'])->name('users.delete');
 
 Route::resource('posts', App\Http\Controllers\PostController::class);
+
+Route::get('/videos/video', [App\Http\Controllers\VideoController::class, 'index']) ->name('videos.video');
+Route::get('/juegos/index', [App\Http\Controllers\JuegoController::class, 'index']) ->name('juegos.index');
+Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');
