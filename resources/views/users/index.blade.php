@@ -39,11 +39,11 @@
                               <td class="td-actions text-right">
                                 <a href="{{ route('users.show', $user->id) }}" class="btn btn-info"><i class="material-icons">person</i></a>
                                 <a href="{{ route('users.edit', $user->id) }}" class="btn btn-warning"><i class="material-icons">edit</i></a>
-                                <!-- <form action="{{ route('users.delete', $user->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('ESTA SEGURO DE ELIMINAR EL USUARIO?')"> !-->
+                                <form action="{{ route('users.delete', $user->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('ESTA SEGURO DE ELIMINAR EL USUARIO?')"> 
                                 @csrf
                                 @method('DELETE')
-                               <!--  <button class="btn btn-danger" type="submit" rel="tooltip"> !-->
-                                  <!-- <i class="material-icons">close</i> !-->
+                               <button class="btn btn-danger" type="submit" rel="tooltip"> 
+                                  <i class="material-icons">close</i> 
                                 </button>
                               </form>
                               </td>

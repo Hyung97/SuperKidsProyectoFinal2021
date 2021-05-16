@@ -40,6 +40,7 @@ Route::get('/videos/coronavirus', [App\Http\Controllers\VideoController::class, 
 Route::get('/videos/diferencia', [App\Http\Controllers\VideoController::class, 'video5']) ->name('videos.diferencia');
 Route::get('/videos/save', [App\Http\Controllers\VideoController::class, 'video6']) ->name('videos.save');
 
+Route::get('/downloads/download', [App\Http\Controllers\DownloadController::class, 'download']) ->name('downloads.download');
 
 Route::get('/juegos/index', [App\Http\Controllers\JuegoController::class, 'index']) ->name('juegos.index');
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');

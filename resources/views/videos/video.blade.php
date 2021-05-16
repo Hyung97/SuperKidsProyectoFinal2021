@@ -4,7 +4,9 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." alt="...">
+      <p></p>
+      <p></p>
+      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -19,7 +21,8 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." alt="...">
+      <p></p>
+      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -34,7 +37,8 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." alt="...">
+      <p></p>
+      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -49,7 +53,8 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." alt="...">
+      <p></p>
+      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -64,7 +69,8 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." alt="...">
+      <p></p>
+      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -79,7 +85,8 @@
   <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." alt="...">
+      <p></p>
+      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
       </div>
       <div class="col-md-8">
         <div class="card-body">

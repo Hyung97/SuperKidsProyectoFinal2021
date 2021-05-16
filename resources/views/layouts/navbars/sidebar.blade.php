@@ -9,7 +9,7 @@
     <li class="nav-item{{ $activePage == 'users' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('users.index') }}">
           <i class="material-icons">person_add</i>
-            <p>Perfil</p>
+            <p>Perfiles</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
@@ -43,7 +43,7 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('downloads.download')}}">
           <i class="material-icons">download</i>
           <p>{{ __('Descargas') }}</p>
         </a>
