@@ -34,6 +34,11 @@ Route::resource('posts', App\Http\Controllers\PostController::class);
 
 Route::get('/videos/video', [App\Http\Controllers\VideoController::class, 'index']) ->name('videos.video');
 Route::get('/videos/conozcamos', [App\Http\Controllers\VideoController::class, 'video1']) ->name('videos.conozcamos');
+Route::get('/videos/lavarse', [App\Http\Controllers\VideoController::class, 'video2']) ->name('videos.lavarse');
+Route::get('/videos/eljuego', [App\Http\Controllers\VideoController::class, 'video3']) ->name('videos.eljuego');
+Route::get('/videos/coronavirus', [App\Http\Controllers\VideoController::class, 'video4']) ->name('videos.coronavirus');
+Route::get('/videos/diferencia', [App\Http\Controllers\VideoController::class, 'video5']) ->name('videos.diferencia');
+Route::get('/videos/save', [App\Http\Controllers\VideoController::class, 'video6']) ->name('videos.save');
 
 
 Route::get('/juegos/index', [App\Http\Controllers\JuegoController::class, 'index']) ->name('juegos.index');

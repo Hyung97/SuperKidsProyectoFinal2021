@@ -1,9 +1,9 @@
-@extends('layouts.main', ['activePage' => 'videos', 'titlePage' => 'Conozcamos sobre los virus '])
+@extends('layouts.main', ['activePage' => 'videos', 'titlePage' => '¿Cuál es la diferencia entre virus y bacterias?'])
 @section('content')
 <div class="content">
 <h2 class="card-title"></h2>
 
-<iframe width="660" height="415" src="https://www.youtube.com/embed/ZuiGzs5XUWo" 
+<iframe width="660" height="415" src="https://www.youtube.com/embed/9jqYw4uyuHs" 
 title="YouTube video player" frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
