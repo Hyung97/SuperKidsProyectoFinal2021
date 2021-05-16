@@ -33,5 +33,8 @@ Route::delete('/users/{user}', [App\Http\Controllers\UserController::class, 'des
 Route::resource('posts', App\Http\Controllers\PostController::class);
 
 Route::get('/videos/video', [App\Http\Controllers\VideoController::class, 'index']) ->name('videos.video');
+Route::get('/videos/conozcamos', [App\Http\Controllers\VideoController::class, 'video1']) ->name('videos.conozcamos');
+
+
 Route::get('/juegos/index', [App\Http\Controllers\JuegoController::class, 'index']) ->name('juegos.index');
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');

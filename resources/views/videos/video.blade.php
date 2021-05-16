@@ -1,26 +1,6 @@
 @extends('layouts.main', ['activePage' => 'videos', 'titlePage' => 'Videos'])
 @section('content')
 <div class="content">
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
@@ -29,9 +9,9 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h3 class="card-title">Conozcamos sobre los virus </h3>
+        <p class="card-text">¿Sabías que los virus no son seres vivos? No pueden cumplir con la función vital de reproducción por sí mismos, a diferencia de las células.</p>
+        <a href="{{ route('videos.conozcamos') }}" class="btn btn-primary">Ver</a>
       </div>
     </div>
   </div>
