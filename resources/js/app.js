@@ -7,6 +7,14 @@
 require('./bootstrap');
 
 window.Vue = require('vue').default;
+window.db = '';
+window.generarIdUnicoDesdeFecha=()=>{
+    let fecha = new Date();
+    return Math.floor(fecha.getTime()/1000).toString(16);
+};
+
+import 'vue-select/dist/vue-select.css';
+window.socket = io.connect('http://localhost:3001', {'forceNew':true});
 
 /**
  * The following block of code may be used to automatically register your
@@ -20,6 +28,7 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('chat-component', require('./components/chat.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

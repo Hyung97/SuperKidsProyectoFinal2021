@@ -6,7 +6,7 @@
                     <div class="card-header bg-dark text-white toolbar">
                         <div class="row">
                             <div class="col-1">
-                                <img src="../../../public/img/chats.png" alt="Chats">
+                                <img src="../../../public/img/chat.png" alt="Chats">
                             </div>
                             <div class="col-9">
                                 <h5>CHATS</h5>
@@ -31,7 +31,7 @@
                     <div class="card-footer bg-transparent">
                         <div class="row p-2">
                             <div class="col-10">
-                                <input v-model="chat.msg" type="text" placeholder="Escribe tu mensaje aqui" class="form-control" required @keyup.enter.once="guardarChat">
+                                <input v-model="chat.msg" type="text" placeholder="Escribe tu mensaje" class="form-control" required @keyup.enter.once="guardarChat">
                             </div>
                             <div class="col">
                                 <a @click="guardarChat">
@@ -86,10 +86,10 @@
                 this.chat.id = generarIdUnicoDesdeFecha();
                 if(this.chat.msg.trim()!=""){
                     //https://medium.com/laboratoria-developers/por-valor-vs-por-referencia-en-javascript-de3daf53a8b9
+                    
                     //this.chats.push( JSON.parse(JSON.stringify(this.chat)) );//para pasar una copia de la variable y no la referencia
                     //let data = await axios.post(`http://localhost:3001/chat`, this.chat);
                     //fetch => ajax 2.0 -> XMLHttpRequest
-
                     socket.emit('chat',this.chat);
                     this.chat.msg = "";
                 } else{
@@ -110,8 +110,8 @@
                 }, time*1000);
             },
             obtenerDatos(){
-                /*const chats = await axios.get('http://localhost:3001/historial');
-                this.chats = chats.data;*/
+                //const chats = await axios.get('http://localhost:3001/historial');
+                //this.chats = chats.data;
                 
                 socket.emit('historial');
                 socket.on('historial',chats=>{
@@ -134,7 +134,6 @@
         },
         created(){
             this.obtenerDatos();
-
             socket.on('chat',chat=>{
                 this.mostrarDatos(chat);
             });

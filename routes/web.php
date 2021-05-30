@@ -44,3 +44,5 @@ Route::get('/downloads/download', [App\Http\Controllers\DownloadController::clas
 
 Route::get('/juegos/index', [App\Http\Controllers\JuegoController::class, 'index']) ->name('juegos.index');
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');
+
+Route::view('/social', 'social')->name('social');
