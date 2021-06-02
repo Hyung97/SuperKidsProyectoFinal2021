@@ -241,7 +241,7 @@ body{
 
         <section class="banner contenedor">
             <secrion class="banner_title">
-                <h2>Estamos Juntos <br>En Esto</h2>
+                <h2>Confía en ti y confía en nosotros</h2>
                 <a href="#" class="llamanos"></a>
             </secrion>
             <div class="banner_img">
