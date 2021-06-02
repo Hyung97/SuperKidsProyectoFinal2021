@@ -1,24 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>SuperKids</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Roboto', 'Sans serif', 'Century Gothic';
+    font-family: 'Roboto', 'Sans serif';
 }
 
 .contenedor{
@@ -30,7 +17,7 @@ body{
 .bg_animate{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #ff6000, #e66b19);
+    background: linear-gradient(to right, #005C98, #505BDA);
     position: relative;
     overflow: hidden;
 }
@@ -214,69 +201,3 @@ body{
         transform: translateY(0);
     }
 }
-</style>
-    </head>
-    <body>
-    <header class="bg_animate">
-        <div class="header_nav">
-            <div class="contenedor">
-                <h1>SuperKids</h1>
-                <nav>
-                @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Iniciar Sesion</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Registrarse</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-                </nav>
-            </div>
-        </div>
-
-        <section class="banner contenedor">
-            <secrion class="banner_title">
-                <h2>Estamos Juntos <br>En Esto</h2>
-                <a href="#" class="llamanos"></a>
-            </secrion>
-            <div class="banner_img">
-                <img src="{{ asset('/img/cosito.png') }}" alt="">
-            </div>
-        </section>
-
-        <div class="burbujas">
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-            <div class="burbuja"></div>
-        </div>
-    </header>
-
-        <div class="flex-center position-ref full-height">
-            
-
-            <div class="content">
-                
-                <div class="title m-b-md">
-                <nav class="navbar navbar-light bg-main">
-                  <div class="container p-4">
-                      <a class="navbar-brand m-auto" href="#">
-                  </a>
-                  </div>
-               </nav>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
