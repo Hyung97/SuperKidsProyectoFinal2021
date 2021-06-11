@@ -74,11 +74,6 @@
                         </div>
                         <div class="row">
                              <div class="col-8">
-                                 @if (Route::has('password.request'))
-                                 <a href="{{ route('password.request') }}" class="text-warning">
-                                     <small>{{ __('¿Se te olvidó tu contraseña?') }}</small>
-                                 </a>
-                                     @endif
                              </div>
                         </div>
                     </div>

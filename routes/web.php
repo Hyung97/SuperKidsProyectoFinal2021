@@ -43,6 +43,11 @@ Route::get('/videos/save', [App\Http\Controllers\VideoController::class, 'video6
 Route::get('/downloads/download', [App\Http\Controllers\DownloadController::class, 'download']) ->name('downloads.download');
 
 Route::get('/juegos/index', [App\Http\Controllers\JuegoController::class, 'index']) ->name('juegos.index');
+Route::get('/juegos/memoria', [App\Http\Controllers\JuegoController::class, 'juego1']) ->name('juegos.memoria');
+Route::get('/juegos/emparejar', [App\Http\Controllers\JuegoController::class, 'juego2']) ->name('juegos.emparejar');
+Route::get('/juegos/popurri', [App\Http\Controllers\JuegoController::class, 'juego3']) ->name('juegos.popurri');
+Route::get('/juegos/persecusion', [App\Http\Controllers\JuegoController::class, 'juego4']) ->name('juegos.persecusion');
+
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');
 
 Route::view('/social', 'social')->name('social');

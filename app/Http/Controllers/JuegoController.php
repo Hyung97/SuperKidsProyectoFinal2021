@@ -10,4 +10,24 @@ class JuegoController extends Controller
     {
         return view('juegos.index');
     }
+
+    public function juego1 ()
+    {
+        return view('juegos.memoria');
+    }
+
+    public function juego2 ()
+    {
+        return view('juegos.emparejar');
+    }
+
+    public function juego3 ()
+    {
+        return view('juegos.popurri');
+    }
+
+    public function juego4 ()
+    {
+        return view('juegos.persecusion');
+    }
 }

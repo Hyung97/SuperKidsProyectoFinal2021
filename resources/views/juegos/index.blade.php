@@ -1,34 +1,57 @@
 @extends('layouts.main', ['activePage' => 'index', 'titlePage' => 'Videos'])
 @section('content')
 <div class="content">
-<div class="card border-info mb-3" style="max-width: 18rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body text-dark">
-    <h5 class="card-title">Primary card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-
-
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pares iguales</h5>
+      <p class="card-text">Toca un par de fichas a la vez para revelar si son iguales.</p>
+      <a href="#" class="btn btn-primary">Jugar</a>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Anagrama</h5>
+      <p class="card-text">Arrastra las letras hacia sus posiciones correctas para ordenar la palabra o frase.</p>
+      <a href="#" class="btn btn-primary">Jugar</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Juego de concurso</h5>
+      <p class="card-text">Un cuestionario de opción múltiple con límite de tiempo, líneas de vida y una ronda de bonos.</p>
+      <a href="#" class="btn btn-primary">Jugar</a>
     </div>
   </div>
 </div>
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Persecución en laberinto</h5>
+      <p class="card-text">Corre hacia la zona de respuesta correcta, evitando los enemigos.</p>
+      <a href="#" class="btn btn-primary">Jugar</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Jugar</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <a href="#" class="btn btn-primary">Jugar</a>
+    </div>
+  </div>
 </div>
+
 @endsection
