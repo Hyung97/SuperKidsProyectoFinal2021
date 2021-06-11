@@ -47,6 +47,8 @@ Route::get('/juegos/memoria', [App\Http\Controllers\JuegoController::class, 'jue
 Route::get('/juegos/emparejar', [App\Http\Controllers\JuegoController::class, 'juego2']) ->name('juegos.emparejar');
 Route::get('/juegos/popurri', [App\Http\Controllers\JuegoController::class, 'juego3']) ->name('juegos.popurri');
 Route::get('/juegos/persecusion', [App\Http\Controllers\JuegoController::class, 'juego4']) ->name('juegos.persecusion');
+Route::get('/juegos/conecta', [App\Http\Controllers\JuegoController::class, 'juego5']) ->name('juegos.conecta');
+Route::get('/juegos/une', [App\Http\Controllers\JuegoController::class, 'juego6']) ->name('juegos.une');
 
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');
 

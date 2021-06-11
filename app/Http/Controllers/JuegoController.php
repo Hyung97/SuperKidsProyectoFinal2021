@@ -30,4 +30,14 @@ class JuegoController extends Controller
     {
         return view('juegos.persecusion');
     }
+
+    public function juego5 ()
+    {
+        return view('juegos.conecta');
+    }
+
+    public function juego6 ()
+    {
+        return view('juegos.une');
+    }
 }

@@ -10,4 +10,6 @@ allowfullscreen></iframe>
 <p>
 </p>
 <a href="{{ route('videos.video') }}" class="btn btn-info">Volver</a>
+<a href="{{ route('videos.eljuego') }}" class="btn btn-info">Anterior</a>
+<a href="{{ route('videos.diferencia') }}" class="btn btn-info">Siguiente</a>
 @endsection
