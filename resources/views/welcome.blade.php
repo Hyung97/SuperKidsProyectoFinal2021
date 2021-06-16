@@ -242,7 +242,6 @@ body{
         <section class="banner contenedor">
             <secrion class="banner_title">
                 <h2>Confía en ti y confía en nosotros</h2>
-                <a href="#" class="llamanos"></a>
             </secrion>
             <div class="banner_img">
                 <img src="{{ asset('/img/cosito.png') }}" alt="">

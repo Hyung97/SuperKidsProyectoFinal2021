@@ -56,5 +56,10 @@ Route::get('/chat/chat', [App\Http\Controllers\ChatController::class, 'chat']) -
 Route::get('/chat/comunidad', [App\Http\Controllers\ChatController::class, 'comunidad']) ->name('chat.comunidad');
 
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');
+Route::get('/ayuda/superkids', [App\Http\Controllers\AyudaController::class, 'video1']) ->name('ayuda.superkids');
+Route::get('/ayuda/pregunta2', [App\Http\Controllers\AyudaController::class, 'video2']) ->name('ayuda.pregunta2');
+Route::get('/ayuda/pregunta3', [App\Http\Controllers\AyudaController::class, 'video3']) ->name('ayuda.pregunta3');
+Route::get('/ayuda/pregunta4', [App\Http\Controllers\AyudaController::class, 'video4']) ->name('ayuda.pregunta4');
+Route::get('/ayuda/pregunta5', [App\Http\Controllers\AyudaController::class, 'video5']) ->name('ayuda.pregunta5');
 
 Route::view('/social', 'social')->name('social');
