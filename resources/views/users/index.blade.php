@@ -42,9 +42,6 @@
                                 <form action="{{ route('users.delete', $user->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('ESTA SEGURO DE ELIMINAR EL USUARIO?')"> 
                                 @csrf
                                 @method('DELETE')
-                               <button class="btn btn-danger" type="submit" rel="tooltip"> 
-                                  <i class="material-icons">close</i> 
-                                </button>
                               </form>
                               </td>
                             </tr>
