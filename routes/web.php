@@ -53,6 +53,7 @@ Route::get('/juegos/une', [App\Http\Controllers\JuegoController::class, 'juego6'
 
 Route::get('/chat/index', [App\Http\Controllers\ChatController::class, 'index']) ->name('chat.indexchat');
 Route::get('/chat/chat', [App\Http\Controllers\ChatController::class, 'chat']) ->name('chat.index');
+Route::get('/chat/chatbox', [App\Http\Controllers\ChatController::class, 'chatbox']) ->name('chat.chatbox');
 Route::get('/chat/comunidad', [App\Http\Controllers\ChatController::class, 'comunidad']) ->name('chat.comunidad');
 
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');

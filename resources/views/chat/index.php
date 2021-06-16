@@ -6,7 +6,7 @@
  
  <body>
 	<div id="konten">
-	<div class="tabs"><div class="tab" data-dip="chat">SuperKids Chat</div><div class="tab" data-dip="users">Super Usuarios</div></div>
+	<div class="tabs"><div class="tab" data-dip="chat">SuperKids Chat</div><div class="tab" data-dip="users"></div></div>
    <div class="chat">
      <?php 
 	 include("config.php");include("login.php");

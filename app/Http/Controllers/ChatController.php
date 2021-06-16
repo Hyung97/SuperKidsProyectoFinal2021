@@ -20,4 +20,9 @@ class ChatController extends Controller
     {
         return view('chat.comunidad');
     }
+
+    public function chatbox ()
+    {
+        return view('chat.chatbox');
+    }
 }
