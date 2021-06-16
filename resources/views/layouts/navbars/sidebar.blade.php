@@ -37,7 +37,7 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('chat.index') }}">
+        <a class="nav-link" href="{{ route('chat.indexchat') }}">
           <i class="material-icons">duo</i>
           <p>{{ __('Chat') }}</p>
         </a>

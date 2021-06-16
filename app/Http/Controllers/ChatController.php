@@ -8,6 +8,16 @@ class ChatController extends Controller
 {
     public function index ()
     {
+        return view('chat.indexchat');
+    }
+
+    public function chat ()
+    {
         return view('chat.index');
+    }
+
+    public function comunidad ()
+    {
+        return view('chat.comunidad');
     }
 }

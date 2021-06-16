@@ -50,7 +50,11 @@ Route::get('/juegos/popurri', [App\Http\Controllers\JuegoController::class, 'jue
 Route::get('/juegos/persecusion', [App\Http\Controllers\JuegoController::class, 'juego4']) ->name('juegos.persecusion');
 Route::get('/juegos/conecta', [App\Http\Controllers\JuegoController::class, 'juego5']) ->name('juegos.conecta');
 Route::get('/juegos/une', [App\Http\Controllers\JuegoController::class, 'juego6']) ->name('juegos.une');
-Route::get('/chat/index', [App\Http\Controllers\ChatController::class, 'index']) ->name('chat.index');
+
+Route::get('/chat/index', [App\Http\Controllers\ChatController::class, 'index']) ->name('chat.indexchat');
+Route::get('/chat/chat', [App\Http\Controllers\ChatController::class, 'chat']) ->name('chat.index');
+Route::get('/chat/comunidad', [App\Http\Controllers\ChatController::class, 'comunidad']) ->name('chat.comunidad');
+
 Route::get('/ayuda/ayuda', [App\Http\Controllers\AyudaController::class, 'index']) ->name('ayuda.ayuda');
 
 Route::view('/social', 'social')->name('social');
