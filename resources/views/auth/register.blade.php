@@ -8,7 +8,7 @@
                 @csrf
 
                 <div class="card card-login card-hidden mb-3">
-                    <div class="card-header card-header-warning text-center">
+                    <div class="card-header card-header-info text-center">
                         <h4 class="card-title"><strong>{{ __('Bienvenidos') }}</strong></h4>
                     </div>
                     <div class="card-body ">
