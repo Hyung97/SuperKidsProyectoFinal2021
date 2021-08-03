@@ -18,7 +18,7 @@
 }
 
 body{
-    font-family: 'Roboto', 'Sans serif', 'Century Gothic';
+    font-family: 'Roboto', 'Sans serif', 'Noto Sans JP';
 }
 
 .contenedor{
@@ -30,7 +30,7 @@ body{
 .bg_animate{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #ff6000, #e66b19);
+    background: linear-gradient(to right, #7052ff, #a965f5);
     position: relative;
     overflow: hidden;
 }
