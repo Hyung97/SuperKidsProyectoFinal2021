@@ -362,7 +362,7 @@
       <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-7">
           <div class="section-title text-center mb-60">
-            <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">PREGUNTAS<span>FRECUENTES</span></h1>
+            <h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s">PREGUNTAS <span> FRECUENTES</span></h1>
             <p class="mb-25 wow fadeInUp" data-wow-delay=".4s">Bienvenidos al Servicio de Atención al Cliente de SuperKids. 
                 ¿En qué podemos ayudarte?</p>
           </div>
