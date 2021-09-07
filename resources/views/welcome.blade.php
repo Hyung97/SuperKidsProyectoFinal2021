@@ -213,7 +213,7 @@
             </div>
             <div class="content">
               <h3>¿Qué son los virus?</h3>
-              <a href="https://chat.whatsapp.com/DFzoj3It7td2ejVzOBehiI"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://www.youtube.com/watch?v=hwgkDkFx83Q"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -223,8 +223,8 @@
               <i class="fas fa-hand-pointer"></i>
             </div>
             <div class="content">
-              <h3>¿Qué son las bacterias?</h3>
-              <a href="https://chat.whatsapp.com/DFzoj3It7td2ejVzOBehiI"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <h3>El sistema inmunológico</h3>
+              <a href="https://www.youtube.com/watch?v=G-KdybG4tXE"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@
             </div>
             <div class="content">
               <h3>Virus vs Bacterias</h3>
-              <a href="https://chat.whatsapp.com/DFzoj3It7td2ejVzOBehiI"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://www.youtube.com/watch?v=c1zu29PgqXQ"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@
             </div>
             <div class="content">
               <h3>¿Qué es el coronavirus?</h3>
-              <a href="https://chat.whatsapp.com/DFzoj3It7td2ejVzOBehiI"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://www.youtube.com/watch?v=0f77DoVhDZg"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -257,7 +257,7 @@
             </div>
             <div class="content">
               <h3>Lavado de manos en 10 pasos</h3>
-              <a href="https://chat.whatsapp.com/DFzoj3It7td2ejVzOBehiI"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://www.youtube.com/watch?v=zalaUAf8KbY"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -268,7 +268,7 @@
             </div>
             <div class="content">
               <h3>Higiene corporal para niños</h3>
-              <a href="https://chat.whatsapp.com/DFzoj3It7td2ejVzOBehiI"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://www.youtube.com/watch?v=AJdfEgkbCts"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
               </p>
             </div>
           </div>
