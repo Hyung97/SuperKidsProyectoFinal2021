@@ -43,5 +43,10 @@ class VideoController extends Controller
         return view('videos.save'); 
     }
 
+    public function musica()
+    {
+        return view('reproductormusic.reproductor'); 
+    }
+
     
 }

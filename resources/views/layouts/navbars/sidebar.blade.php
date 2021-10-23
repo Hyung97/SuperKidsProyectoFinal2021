@@ -8,14 +8,8 @@
     <ul class="nav">
     <li class="nav-item{{ $activePage == 'users' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('users.index') }}">
-          <i class="material-icons">person_add</i>
-            <p>Perfiles</p>
-        </a>
-      </li>
-      <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('home') }}">
           <i class="material-icons">home</i>
-            <p>{{ __('Home') }}</p>
+            <p>Home</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'icons' ? ' active' : '' }}">
@@ -34,12 +28,6 @@
         <a class="nav-link" href="{{ route('posts.index') }}">
           <i class="material-icons">forum</i>
             <p>{{ __('Bitácora') }}</p>
-        </a>
-      </li>
-      <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('chat.indexchat') }}">
-          <i class="material-icons">duo</i>
-          <p>{{ __('Chat') }}</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
