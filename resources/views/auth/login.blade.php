@@ -77,8 +77,10 @@
                              </div>
                         </div>
                     </div>
+                     
                     <div class="card-footer justify-content-center">
                         <button type="submit" class="btn btn-info btn-link btn-lg">{{ __('Iniciar Sesión') }}</button>
+                        
                     </div>
                 </div>
             </form>

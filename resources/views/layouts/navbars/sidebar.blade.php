@@ -33,7 +33,7 @@
       <li class="nav-item{{ $activePage == 'posts' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('posts.index') }}">
           <i class="material-icons">forum</i>
-            <p>{{ __('Foro') }}</p>
+            <p>{{ __('Bitácora') }}</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
