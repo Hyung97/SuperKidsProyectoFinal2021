@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+    <title>SUPERKIDS</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -9,7 +10,6 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SUPERKIDS</title>
   <!-- -------- anime css ------ -->
   <link rel="stylesheet" href="assets/css/animate.css">
   <!-- --------- tiny slider css ------ -->
@@ -481,6 +481,16 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- ---- main js --- -->
   <script src="assets/js/main.js"></script>
+  <!--ChatBoot -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+<df-messenger
+  intent="WELCOME"
+  chat-title="Kiddy"
+  agent-id="f9bd974d-c6f2-49ae-bdd7-37bff256124f"
+  language-code="es"
+></df-messenger>
+<!-- EndChatbot-->
 </body>
 
 </html>
