@@ -213,7 +213,7 @@
             </div>
             <div class="content">
               <h3>¿Qué son los virus?</h3>
-              <a href="https://www.youtube.com/watch?v=hwgkDkFx83Q"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://youtu.be/asISyCoRiUA"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@
             </div>
             <div class="content">
               <h3>El sistema inmunológico</h3>
-              <a href="https://www.youtube.com/watch?v=G-KdybG4tXE"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://youtu.be/eRIV66-s78o"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@
             </div>
             <div class="content">
               <h3>Virus vs Bacterias</h3>
-              <a href="https://www.youtube.com/watch?v=c1zu29PgqXQ"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://youtu.be/-3mE3YaRNLU"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
             </div>
           </div>
         </div>
@@ -268,7 +268,7 @@
             </div>
             <div class="content">
               <h3>Higiene corporal para niños</h3>
-              <a href="https://www.youtube.com/watch?v=AJdfEgkbCts"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
+              <a href="https://youtu.be/AJdfEgkbCts"  target="_blank" class="btn btn-outline-danger">VER VIDEO</a>
               </p>
             </div>
           </div>

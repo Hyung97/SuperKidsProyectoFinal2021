@@ -3,7 +3,7 @@
 <div class="content">
 <div class="card-group">
   <div class="card">
-    <img src="https://az779572.vo.msecnd.net/res/content/images/template_icons/5/25.png" class="card-img-top" alt="">
+    <img src="https://i.ibb.co/vjyqDkt/Pares-Igual.png" class="card-img-top" alt="">
     <div class="card-body">
       <h5 class="card-title">Pares iguales</h5>
       <p class="card-text">Toca un par de fichas a la vez para revelar si son iguales.</p>
@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="https://az779572.vo.msecnd.net/res/content/images/template_icons/5/38.png" class="card-img-top" alt="...">
+    <img src="https://i.ibb.co/TcDY3vY/Anagrama.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Anagrama</h5>
       <p class="card-text">Arrastra las letras hacia sus posiciones correctas para ordenar la palabra o frase.</p>
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="https://az779572.vo.msecnd.net/res/content/images/template_icons/5/69.png" class="card-img-top" alt="...">
+    <img src="https://i.ibb.co/1zty1Vr/Popurri.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Juego de concurso</h5>
       <p class="card-text">Un cuestionario de opción múltiple con límite de tiempo, líneas de vida y una ronda de bonos.</p>
@@ -29,7 +29,7 @@
 </div>
 <div class="card-group">
   <div class="card">
-    <img src="https://az779572.vo.msecnd.net/res/content/images/template_icons/5/49.png" class="card-img-top" alt="...">
+    <img src="https://i.ibb.co/g7CtyLF/Laberinto.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Persecución en laberinto</h5>
       <p class="card-text">Corre hacia la zona de respuesta correcta, evitando los enemigos.</p>
@@ -37,7 +37,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="https://az779572.vo.msecnd.net/res/content/images/template_icons/5/72.png" class="card-img-top" alt="...">
+    <img src="https://i.ibb.co/TvpKCF0/Reordenar.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Reordenar</h5>
       <p class="card-text">Arrastra y suelta palabras para reordenar cada oración en su orden correcto.</p>
@@ -45,7 +45,7 @@
     </div>
   </div>
   <div class="card">
-    <img src="https://az779572.vo.msecnd.net/res/content/images/template_icons/5/3.png" class="card-img-top" alt="...">
+    <img src="https://i.ibb.co/0tbMPSX/Une.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Une las correspondencias</h5>
       <p class="card-text">Arrastra y suelta cada palabra junto a su definición.</p>

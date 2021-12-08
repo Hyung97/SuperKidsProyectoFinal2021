@@ -64,5 +64,4 @@ Route::get('/ayuda/pregunta4', [App\Http\Controllers\AyudaController::class, 'vi
 Route::get('/ayuda/pregunta5', [App\Http\Controllers\AyudaController::class, 'video5']) ->name('ayuda.pregunta5');
 
 Route::get('/reproductormusic/reproductor', [App\Http\Controllers\VideoController::class, 'musica']) ->name('reproductormusic.reproductor');
-
 Route::view('/social', 'social')->name('social');

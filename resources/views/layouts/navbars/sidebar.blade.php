@@ -1,3 +1,4 @@
+
 <div class="sidebar" data-color="orange" data-background-color="orange" data-image="{{ asset('material') }}/img/sidebar-1.jpg">
   <div class="logo">
     <a href="/home" class="simple-text logo-normal">
@@ -18,12 +19,7 @@
           <p>{{ __('Videos') }}</p>
         </a>
       </li>
-      <li class="nav-item{{ $activePage == 'map' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('juegos.index') }}">
-          <i class="material-icons">sports_esports</i>
-            <p>{{ __('Juegos') }}</p>
-        </a>
-      </li>
+   
       <li class="nav-item{{ $activePage == 'posts' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('posts.index') }}">
           <i class="material-icons">forum</i>
@@ -40,6 +36,12 @@
         <a class="nav-link" href="{{ route('ayuda.ayuda') }}">
           <i class="material-icons">info</i>
           <p>{{ __('Ayuda') }}</p>
+        </a>
+      </li>
+      <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('juegos.conecta') }}">
+          <i class="material-icons">info</i>
+          <p>{{ __('Juegos') }}</p>
         </a>
       </li>
     </ul>
