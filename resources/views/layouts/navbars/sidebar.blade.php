@@ -39,7 +39,7 @@
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('juegos.conecta') }}">
+        <a class="nav-link" href="{{ route('juegos.index') }}">
           <i class="material-icons">games</i>
           <p>{{ __('Juegos') }}</p>
         </a>

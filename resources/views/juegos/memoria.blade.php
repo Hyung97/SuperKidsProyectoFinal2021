@@ -7,6 +7,6 @@ width="1000"
 height="500" 
 frameborder="0" 
 allowfullscreen></iframe>
-<a href="{{ route('juegos.persecusion') }}" class="btn btn-info">Siguiente</a>
+<a href="{{ route('juegos.index') }}" class="btn btn-info">Principal</a>
 
 @endsection
