@@ -8,7 +8,7 @@
       <h5 class="card-title h1">Pares iguales</h5>
       <p class="card-text h4">Toca un par de fichas a la vez para revelar si son iguales.</p>
       <a href="{{ route('juegos.memoria') }}" class="btn btn-warning h4">Jugar</a>
-    </div>
+    </div> 
   </div>
   <div class="card">
     <img src="https://i.ibb.co/WKX2SV4/Anagrama.png" class="card-img-top" alt="...">
@@ -18,14 +18,14 @@
       <a href="{{ route('juegos.emparejar') }}" class="btn btn-info h4">Jugar</a>
     </div>
   </div>
-  <div class="card">
-    <img src="https://i.ibb.co/QM26j78/Popurr.png" class="card-img-top" alt="...">
+ <!-- <div class="card">
+   <img src="https://i.ibb.co/QM26j78/Popurr.png" class="card-img-top" alt="...">
     <div class="card-bod ">
       <h5 class="card-title h2">Juego de concurso</h5>
       <p class="card-text h4">Un cuestionario de opción múltiple con límite de tiempo, líneas de vida y una ronda de bonos.</p>
       <a href="{{ route('juegos.popurri') }}" class="btn btn-success h5">Jugar</a>
     </div>
-  </div>
+  </div> -->
 </div>
 <div class="card-group">
   <div class="card">
@@ -44,13 +44,13 @@
       <a href="{{ route('juegos.conecta') }}" class="btn btn-success">Jugar</a>
     </div>
   </div>
-  <div class="card">
+ <!-- <div class="card">
     <img src="https://i.ibb.co/NVSRCyN/Une.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title h2">Une las correspondencias</h5>
       <p class="card-text h3">Arrastra y suelta cada palabra junto a su definición.</p>
       <a href="{{ route('juegos.une') }}" class="btn btn-warning h4">Jugar</a>
-    </div>
+    </div> -->
   </div>
   
 <df-messenger

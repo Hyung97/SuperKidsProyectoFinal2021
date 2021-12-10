@@ -44,12 +44,13 @@
           <p>{{ __('Juegos') }}</p>
         </a>
       </li>
-      <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('reproductormusic.reproductor') }}">
-          <i class="material-icons">library_music</i>
-          <p>{{ __('Musica') }}</p>
-        </a>
+      </a>
       </li>
+      <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('chat.comunidad') }}">
+          <i class="material-icons">group</i>
+          <p>{{ __('Comunidad') }}</p>
+        </a>
     </ul>
   </div>
 </div>
