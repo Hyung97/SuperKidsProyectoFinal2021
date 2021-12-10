@@ -1,54 +1,48 @@
-@extends('layouts.main', ['activePage' => 'index', 'titlePage' => 'Music'])
+@extends('layouts.main', ['activePage' => 'index', 'titlePage' => 'Musica'])
 @section('content')
-<div class="content">
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-<div id="app-cover">
-        <div id="bg-artwork"></div>
-        <div id="bg-layer"></div>
-        <div id="player">
-            <div id="player-track">
-                <div id="album-name"></div>
-                <div id="track-name"></div>
-                <div id="track-time">
-                    <div id="current-time"></div>
-                    <div id="track-length"></div>
-                </div>
-                <div id="s-area">
-                    <div id="ins-time"></div>
-                    <div id="s-hover"></div>
-                    <div id="seek-bar"></div>
-                </div>
+<head>
+<title>Reproductor de Musica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    
+    <div class="player">
+        <div id="info" class="info">
+            <span class="artist">SuperKids</span>
+            <span class="name">Canciones</span>
+            <div class="progress-bar">
+                <div class="bar"></div>
             </div>
-            <div id="player-content">
-                <div id="album-art">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active" id="_1">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
-                    <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
-                    <div id="buffer-box">Buffering ...</div>
-                </div>
-                <div id="player-controls">
-                    <div class="control">
-                        <div class="button" id="play-previous">
-                            <i class="fas fa-backward"></i>
-                        </div>
-                    </div>
-                    <div class="control">
-                        <div class="button" id="play-pause-button">
-                            <i class="fas fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="control">
-                        <div class="button" id="play-next">
-                            <i class="fas fa-forward"></i>
-                        </div>
-                    </div>
-                </div>
+        </div>   
+
+        <div id="control-panel" class="control-panel">
+            <div class="album-art">
+                <img src="img/Fondo.jpg" alt="">
+            </div>
+            <div class="controls">
+                <div class="prev"></div>
+                <div class="play" id="play"></div>
+                <div class="next"></div>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript" src="{{ asset('js/script.js') }}"> </script
+    <audio id="Music" controls style="display: none;">
+        <source  src="audio/SinCopy1.mp3" type="audio/mpeg">
+    </audio>
 
-</div>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
+
+
+@endsection

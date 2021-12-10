@@ -44,6 +44,12 @@
           <p>{{ __('Juegos') }}</p>
         </a>
       </li>
+      <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('reproductormusic.reproductor') }}">
+          <i class="material-icons">library_music</i>
+          <p>{{ __('Musica') }}</p>
+        </a>
+      </li>
     </ul>
   </div>
 </div>
