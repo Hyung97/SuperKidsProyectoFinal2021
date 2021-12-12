@@ -3,8 +3,8 @@
      box-sizing: border-box;
 }
  body {
-     background: linear-gradient(to bottom, rgb(243, 167, 53) 0%, rgb(220, 174, 58) 65%, rgb(235, 176, 48) 100%) fixed;
-     background: url('https://i.pinimg.com/736x/80/75/6d/80756d39edf5d8d69dabb668886de027.jpg') no-repeat center center fixed;
+     background: linear-gradient(to bottom, #FBB03B 0%, #175780 65%, #CC353A 100%) fixed; 
+     background: url('https://i.ibb.co/NZX8bFy/login3.png') no-repeat center center fixed;
      background-size: cover;
      font: 14px/20px "Lato", Arial, sans-serif;
      color: #000000;
@@ -215,11 +215,11 @@
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 .btn-hover.color-10 {
-        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+        background-image: linear-gradient(to right, #175780, #FFAD6E, #f7186a , #FBB03B);
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
 }
 .btn-hover.color-11 {
-       background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+       background-image: linear-gradient(to right, #175780, #f15e64, #e14e53, #CC353A);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
 }
 
 
