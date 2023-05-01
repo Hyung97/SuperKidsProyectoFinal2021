@@ -7,6 +7,6 @@
 </video>
 <br>
 <a href="{{ route('videos.video') }}" class="btn btn-info">Volver</a>
-<a href="{{ route('videos.conozcamos') }}" class="btn btn-info">Anterior</a>
-<a href="{{ route('videos.eljuego') }}" class="btn btn-info">Siguiente</a>
+<a href="{{ route('videos.coronavirus') }}" class="btn btn-info">Anterior</a>
+<a href="{{ route('videos.diferencia') }}" class="btn btn-info">Siguiente</a>
 @endsection

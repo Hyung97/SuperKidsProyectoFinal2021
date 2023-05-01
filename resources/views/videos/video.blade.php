@@ -42,24 +42,8 @@
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h3 class="card-title">El Juego del Coronavirus para niños </h3>
-          <p class="card-text">¡¡Vamos a jugar a un juego super divertido  para vencer al Coronavirus!! Tienes que conseguir borrar el Coronavirus lavándote mucho las manos con agua y jabón.</p>
-          <a href="{{ route('videos.eljuego') }}" class="btn btn-info">Ver</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-      <p></p>
-      <img src="{{ asset('/img/portada.png') }}" width="200px" height="200px" class="avatar">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h3 class="card-title">¿Qué es el coronavirus? - Explicación para niños </h3>
-          <p class="card-text">Con este vídeo, los niños conocerán más sobre el coronavirus, sus consecuencias y lo más importante... ¡qué hacer para evitar el contagio! 😷🤒 </p>
+          <h3 class="card-title">¿Qué son las bacterias? - Explicación para niños </h3>
+          <p class="card-text">Con este vídeo, los niños conocerán más sobre las bacterias, sus consecuencias y lo más importante... ¡qué hacer para evitar el contagio! 😷🤒 </p>
           <a href="{{ route('videos.coronavirus') }}" class="btn btn-info">Ver</a>
         </div>
       </div>

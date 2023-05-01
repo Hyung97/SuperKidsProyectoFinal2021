@@ -27,6 +27,14 @@
       <p class="card__apply"><a href="{{ route('ayuda.pregunta5') }}">Leer mas</a></p>
     </div>
   </div>
+  
+<df-messenger
+  intent="WELCOME"
+  chat-title="Kiddy"
+  agent-id="f9bd974d-c6f2-49ae-bdd7-37bff256124f"
+  language-code="es"
+></df-messenger>
+<!-- EndChatbot-->
 </div>
 
 <style>

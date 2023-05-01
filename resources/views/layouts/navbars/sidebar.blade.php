@@ -1,3 +1,4 @@
+
 <div class="sidebar" data-color="orange" data-background-color="orange" data-image="{{ asset('material') }}/img/sidebar-1.jpg">
   <div class="logo">
     <a href="/home" class="simple-text logo-normal">
@@ -9,7 +10,7 @@
     <li class="nav-item{{ $activePage == 'users' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('users.index') }}">
           <i class="material-icons">home</i>
-            <p>Home</p>
+            <p>Inicio</p>
         </a>
       </li>
       <li class="nav-item{{ $activePage == 'icons' ? ' active' : '' }}">
@@ -18,12 +19,7 @@
           <p>{{ __('Videos') }}</p>
         </a>
       </li>
-      <li class="nav-item{{ $activePage == 'map' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('juegos.index') }}">
-          <i class="material-icons">sports_esports</i>
-            <p>{{ __('Juegos') }}</p>
-        </a>
-      </li>
+   
       <li class="nav-item{{ $activePage == 'posts' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('posts.index') }}">
           <i class="material-icons">forum</i>
@@ -42,6 +38,19 @@
           <p>{{ __('Ayuda') }}</p>
         </a>
       </li>
+      <li class="nav-item{{ $activePage == 'language' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('juegos.index') }}">
+          <i class="material-icons">games</i>
+          <p>{{ __('Juegos') }}</p>
+        </a>
+      </li>
+      </a>
+      </li>
+      <li class="nav-item{{ $activePage == 'notifications' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('chat.comunidad') }}">
+          <i class="material-icons">group</i>
+          <p>{{ __('Comunidad') }}</p>
+        </a>
     </ul>
   </div>
 </div>
